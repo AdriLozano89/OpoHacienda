@@ -1,0 +1,6 @@
+{
+  "name": "OpoHacienda Preparador Pro - C2 y C1",
+  "description": "Centro de Alto Rendimiento para oposiciones a la Agencia Tributaria (C2 Agentes y C1 Técnicos). Incluye simulador de supuestos prácticos (2º ejercicio), calculadora de plazos y recargos LGT, dashboard con baremo oficial (+1.00/-0.25), tests oficiales (10, 25, 50, 80 preguntas), planificador de la curva del olvido y cuaderno de fallos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

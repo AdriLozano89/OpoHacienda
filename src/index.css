@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-aeat-blue: #003366;
+    --color-aeat-blue-dark: #002244;
+    --color-aeat-blue-light: #0A3871;
+    --color-aeat-red: #AA151B;
+    --color-aeat-gold: #D4AF37;
+  }
+
+  html, body {
+    background-color: #FFFFFF !important;
+    color: #0F172A;
+    @apply antialiased;
+  }
+}
+
+/* Custom scrollbars for clean institutional look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
+
+/* Print styles for test and summaries */
+@media print {
+  aside, nav, button, .no-print {
+    display: none !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

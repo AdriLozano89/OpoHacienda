@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "OpoHacienda Preparador Pro - AEAT C2 y C1",
+  "short_name": "OpoHacienda",
+  "description": "Preparador experto de oposiciones a la Agencia Tributaria. Resúmenes de artículos y plazos, test oficiales de 10, 25, 50 y 80 preguntas, curva del olvido y cuaderno de fallos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#003366",
+  "background_color": "#002244",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
